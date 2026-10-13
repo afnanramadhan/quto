@@ -87,8 +87,12 @@ typings/
 
 # Vite
 .vite/
+*.timestamp-*.mjs
 
 # Electron-Forge
 out/
+
+# Local SQLite database
+*.db
 
 AGENT.md
